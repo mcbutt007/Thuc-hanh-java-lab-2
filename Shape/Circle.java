@@ -7,7 +7,7 @@ public class Circle extends Shape {
   }
 
   public String getName() {
-    return "Circle";
+    return "Circle (r=" + radius + ")";
   }
 
   public double getArea() {

@@ -11,7 +11,7 @@ public class Triangle extends Shape {
   }
 
   public String getName() {
-    return "Triangle";
+    return "Triangle (sidea=" + a + ",sideb=" + b + ",sidec=" + c + ")";
   }
 
   public double getArea() {

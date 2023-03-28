@@ -1,10 +1,20 @@
-public class Square extends Rectangle {
+public class Square extends Shape {
+
+  private double side;
 
   public Square(double side) {
-    super(side, side);
+    this.side = side;
   }
 
   public String getName() {
-    return "Square";
+    return "Square (side=" + side + ")";
+  }
+
+  public double getArea() {
+    return side * side;
+  }
+
+  public double getCircumference() {
+    return side * 4;
   }
 }

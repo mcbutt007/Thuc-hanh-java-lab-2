@@ -9,7 +9,7 @@ public class Rectangle extends Shape {
   }
 
   public String getName() {
-    return "Rectangle";
+    return "Rectangle (width =" + width + ", height=" + height + ")";
   }
 
   public double getArea() {
